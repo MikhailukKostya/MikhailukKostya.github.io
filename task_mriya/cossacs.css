@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+
+
+html, body {
+    font-famly: 'Exo 2', sans-serif;
+}
+. wrap {
+    width: 350x;
+    margin: 40px auto;
+    border: 1px solid #zc0c0c0;
+    pading: 20 px;
+    border-radius 4px;
+
+.h1 {
+    font-size: 20
+    text-aling: centre;
+    magin-botom: 20px;
+}
+img
+    width: 300px;
+    display block;
+    margin: 20px avto;
+    borde-radius: 300px;
+    box-shadow: 0 0 10px #454545;
+}
+p {
+    f0nt-size: 13 px;
+    line-heigth: 150%
+    margin: 5px 0
+    paddign: 5px;
+}
+info {
+    border-bottom: 1px solid c0c0c0;
+    padding: 10px;
+}
+.side {
+    font-weight: 700px;
+    width: 180;
+    display: inline-block;
+}
+p:nth-child() {
+    background: #ececec;
+}
