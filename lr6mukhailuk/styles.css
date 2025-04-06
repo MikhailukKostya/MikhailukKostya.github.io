@@ -1,0 +1,70 @@
+/* Центрування по центру екрану */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  .fullwrap {
+    display: inline-block;
+    width: 800px;
+    text-align: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    height: 80px;
+    border: 1px solid #000;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Контейнер wrap */
+  .wrap {
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 10px; /* ⬅️ ДОДАНО padding для видимого простору навколо вмісту */
+    background-color: white; /* якщо треба, щоб фон не просвічувався */
+  }
+  
+  /* clearfix для wrap */
+  .wrap::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Main */
+  .main {
+    float: left;
+    width: 60%;
+    height: 300px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    float: left;
+    width: 38%;
+    height: 300px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  /* Footer */
+  .footer {
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
