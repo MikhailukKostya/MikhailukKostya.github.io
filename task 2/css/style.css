@@ -29,7 +29,7 @@ a {
   background-color: #c2185b;
 }
 
-/* Хедер */
+
 header {
   background: url('task 2/img/bg-01.jpg') no-repeat c enter top;
   background-size: cover;
@@ -85,7 +85,7 @@ nav ul.menu li a:hover {
   background-color: #e91e63;
 }
 
-/* Секція турів */
+
 #tour {
   background-color: #2b2b2b;
   padding: 60px 0;
@@ -155,7 +155,7 @@ figure.photo img:hover {
   transform: scale(1.05);
 }
 
-/* Підписка */
+
 #subscribe {
   background-color: #2b2b2b;
   padding: 60px 20px;
@@ -192,10 +192,10 @@ figure.photo img:hover {
   background-color: #c2185b;
 }
 
-/* Футер */
+
 footer {
   background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
-              url('D:\task 2\task 2\img\bg-02.jpg') no-repeat center center/cover;
+              url('img\bg-02.jpg') no-repeat center center/cover;
   padding: 30px 0;
   text-align: center;
   font-size: 14px;
