@@ -1,0 +1,214 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: white;
+  line-height: 1.6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #c2185b;
+}
+
+/* Хедер */
+header {
+  background: url('task 2/img/bg-01.jpg') no-repeat c enter top;
+  background-size: cover;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.header-content {
+  margin-top: 80px;
+}
+
+header h1 {
+  font-family: 'Metal Mania', cursive;
+  font-size: 56px;
+  text-shadow: 3px 3px 8px black;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Меню */
+#topbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px 0;
+}
+
+nav ul.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.menu li {
+  list-style: none;
+}
+
+nav ul.menu li a {
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+nav ul.menu li a:hover {
+  background-color: #e91e63;
+}
+
+/* Секція турів */
+#tour {
+  background-color: #2b2b2b;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#tour h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tour-card {
+  background-color: #111;
+  padding: 20px;
+  margin: 15px;
+  display: inline-block;
+  width: 220px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  vertical-align: top;
+}
+
+.tour-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tour-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.tour-card .button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Галерея */
+#gallery {
+  background-color: #1c1c1c;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#gallery h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+figure.photo {
+  display: inline-block;
+  margin: 10px;
+}
+
+figure.photo img {
+  width: 250px;
+  height: auto;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+
+figure.photo img:hover {
+  transform: scale(1.05);
+}
+
+/* Підписка */
+#subscribe {
+  background-color: #2b2b2b;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#subscribe h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 12px;
+  width: 300px;
+  max-width: 80%;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e91e63;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #c2185b;
+}
+
+/* Футер */
+footer {
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+              url('D:\task 2\task 2\img\bg-02.jpg') no-repeat center center/cover;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+footer .social a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  transition: color 0.3s;
+}
+
+footer .social a:hover {
+  color: #e91e63;
+}
