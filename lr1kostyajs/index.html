@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторна робота</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    button {
+      margin: 5px 0;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .even { color: green; }
+    .odd { color: red; }
+    #passwordDiv {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      width: fit-content;
+    }
+    .student {
+      margin: 5px 0;
+      padding: 5px;
+      background: #e9f7ff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Завдання 1</h2>
+  <button onclick="checkEvenOdd(23)">Перевірити парність</button>
+  <div id="task1"></div>
+
+  <h2>Завдання 2</h2>
+  <button onclick="generatePassword('Михайлюк', 23)">Згенерувати пароль</button>
+  <div id="passwordDiv"></div>
+
+  <h2>Завдання 3</h2>
+  <button onclick="calculateAverage(23)">Обчислити середнє</button>
+  <div id="task3"></div>
+
+  <h2>Завдання 4</h2>
+  <button onclick="inputStudents()">Ввести студентів</button>
+  <div id="students"></div>
+
+  <!-- Підключаємо окремий JS файл -->
+  <script src="script.js"></script>
+</body>
+</html>
