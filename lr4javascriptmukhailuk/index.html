@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Робота з об'єктами, масивами та користувачем</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Бібліотека JavaScript</h1>
+
+  <section id="task1">
+    <h2>Завдання 1: Робота з об'єктом book</h2>
+    <button id="showBookInfo">Показати інформацію про книгу</button>
+    <div id="bookOutput" class="output"></div>
+  </section>
+
+  <section id="task2">
+    <h2>Завдання 2: Робота з масивом library</h2>
+    <button id="showLibrary">Показати бібліотеку</button>
+    <div id="libraryOutput" class="output"></div>
+  </section>
+
+  <section id="task3">
+    <h2>Завдання 3: Методи масивів</h2>
+    <button id="sortLibrary">Сортувати за роком</button>
+    <button id="showUnread">Показати непрочитані книги</button>
+    <button id="findTolkien">Знайти книгу Толкіна</button>
+    <div id="task3Output" class="output"></div>
+  </section>
+
+  <section id="task4">
+    <h2>Завдання 4: Додавання книги користувачем</h2>
+    <form id="addBookForm">
+      <input type="text" id="title" placeholder="Назва книги" required>
+      <input type="text" id="author" placeholder="Автор" required>
+      <input type="number" id="year" placeholder="Рік видання" required>
+      <label>
+        <input type="checkbox" id="isRead"> Прочитана
+      </label>
+      <button type="submit">Додати книгу</button>
+    </form>
+    <div id="userOutput" class="output"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
